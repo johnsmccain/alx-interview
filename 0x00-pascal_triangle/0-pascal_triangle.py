@@ -1,5 +1,14 @@
+''' Module: #0x00. Pascal's Triangle
+'''
+
 def pascal_triangle(n):
-   
+    '''
+     pascal_triangle - that returns a list of 
+     lists of integers representing the Pascal’s 
+     triangle of n:
+     @n: lists of integers
+     Return: []
+    '''
     temp = []
     
     if n <= 0:
