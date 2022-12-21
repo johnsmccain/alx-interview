@@ -1,4 +1,4 @@
-def pascal_triangle(n=0):
+def pascal_triangle(n):
    
     temp = []
     
