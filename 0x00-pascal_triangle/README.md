@@ -42,11 +42,11 @@ if __name__ == "__main__":
 
 guillaume@ubuntu:~/0x00$ 
 guillaume@ubuntu:~/0x00$ ./0-main.py
-[1]
-[1,1]
-[1,2,1]
-[1,3,3,1]
-[1,4,6,4,1]
+        [1]
+       [1,1]
+      [1,2,1]
+     [1,3,3,1]
+    [1,4,6,4,1]
 guillaume@ubuntu:~/0x00$ 
 ```
 Repo:
