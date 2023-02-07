@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+from typing import List
 """
 Created on friday 2022
 
@@ -6,7 +7,7 @@ Created on friday 2022
 """
 
 
-def pascal_triangle(n):
+def pascal_triangle(n: int) -> List[List]:
     '''
      pascal_triangle - that returns a list of
      lists of integers representing the Pascal’s
@@ -19,7 +20,7 @@ def pascal_triangle(n):
 
     temp = []
     for i in range(1, n+1):
-        temp1 = []
+        temp1:list = []
         C = 1
         for j in range(1, i+1):
             temp1.append(C)
